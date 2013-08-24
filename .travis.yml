@@ -19,4 +19,5 @@ before_script:
     - app/console doctrine:schema:update --force
     - app/console doctrine:fixtures:load
 
-script: php run.php
+script: 
+    - php run.php
