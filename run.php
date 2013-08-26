@@ -1,3 +1,3 @@
 <?php
-echo file_get_contents('http://127.0.0.1/index.html');
+echo file_get_contents('http://nodeprint.com/index.html');
 ?>

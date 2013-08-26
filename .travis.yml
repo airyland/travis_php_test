@@ -2,7 +2,12 @@ language: php
  
 php:
     - 5.3
- 
+
+addons:
+  hosts:
+    - nodeprint.com
+    - nodeprint.dev
+
 before_script:
     - sudo apt-get update
     - sudo apt-get install apache2
